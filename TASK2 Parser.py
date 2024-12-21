@@ -47,7 +47,7 @@ def main():
     while True:
         print("\n                  Grammars ")
         grammar = {}
-        non_terminals = input("Enter the non-terminals: ").split(',')
+        non_terminals = input("Enter the non-terminals EX >> S,A: ").split(',')
 
         for nt in non_terminals:
             grammar[nt] = []
